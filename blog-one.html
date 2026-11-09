@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Style Sheet | Blog 1</title>
+</head>
+
+<body>
+    <header>
+        <h1>ALLAN BRYAN M. VINLUAN</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="blog-one.html">BLOG 1</a></li>
+                <li><a href="blog-two.html">BLOG 2</a></li>
+                <li><a href="blog-three.html">BLOG 3</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <article>
+        <header>
+            <h2>Learning Cascading Style Sheet</h2>
+
+            <p>Posted by <strong>Allan Bryan Vinluan</strong></p>
+
+        </header>
+
+        <h3>What is Cascading Style Sheet or CSS?</h3>
+
+        <p>Last Updated on October 23, 2024</p>
+
+        <p>
+            For those beginners just getting started with web design, a single direct question always seems to come up
+            right away. Just what is <strong>CSS?</strong> CSS, or cascading style sheets, is the designer’s link to a
+            toolset that
+            allows for truly amazing style options on an <strong>HTML</strong> document.
+        </p>
+
+        <p>
+            In this short guide, you will learn what a cascading style sheet is, how to create one, and how to use it in
+            your own HTML document. Sample code and images are provided within the guide to help you along the way as
+            well.
+        </p>
+
+        <h3>What is CSS and What Does Cascading Style Sheet Even Mean?</h3>
+
+        <p>
+            To answer the question of “what is CSS”, you simply need to know what those three letters stand for. CSS is
+            an acronym for the term “Cascading Style Sheet”, a great tool used in web design.
+        </p>
+
+        <p>
+            The style sheet is just as its name implies. This is where your unlimited style potential is set for use.
+            Where HTML provides the bones or structure to a document, CSS injects the style for it. CSS allows you to
+            manipulate HTML elements in various ways such as size, shapes, colors, or even interactions from the
+            end-users. Think of CSS as a toolbox that you can reference when trying to fine-tune the website appearance
+            to your needs.
+        </p>
+
+        <h3>Where Does the Cascade in CSS Come In?</h3>
+
+        <p>
+            Now that you have an answer to “what is CSS”, you might be curious as to the mention of cascading. The
+            cascading term is used due to the way design values are read from the sheet.
+        </p>
+
+        <p>
+            You can use CSS to apply multiple styles on a single HTML document. Those styles can affect the same element
+            once, twice, or many more times over. As these style changes are written into the CSS file, they take a form
+            of precedence from their location. This concept will be explained in the following examples.
+        </p>
+
+        <p>In the sample code image below you have a very basic HTML document with no CSS work applied.</p>
+        <img src="What_Is_CSS_1.jpg" alt="image of a very basic html document with no css work applied">
+
+        <p>Using this code, the page will render with this basic appearance.</p>
+        <img src="What_Is_CSS_2.jpg" alt="image of basic appearance of css applied">
+
+        <p>Now to spice things up, a small bit of CSS is going to be used for the paragraph element on the HTML
+            document.</p>
+        <img src="What_Is_CSS_3.jpg" alt="image of css code">
+
+        <p>That CSS addition will render the paragraph element on the page as shown below.</p>
+        <img src="What_Is_CSS_4.jpg" alt="image of a css applied">
+
+        <p>As you can see, the paragraph element has increased in size, become bold, and changed color to sea green. Now
+            in the next example, the paragraph element will be used again in the stylesheet. Notice that the previous
+            use of the paragraph element is still on the sheet.</p>
+        <img src="What_Is_CSS_5.jpg" alt="image of css code">
+
+        <p>Now the stylesheet has two instances of the paragraph element in place. The first gives it three property
+            values to work with, one of which is the color of sea green. However, the next use of the paragraph element
+            also gives it a color value as well. In the image below, you can see how the page will render with this code
+            in place.</p>
+        <img src="What_Is_CSS_6.jpg" alt="image of css applied">
+
+        <p>The HTML page rendered the paragraph element with the value of red instead of sea green. This is because the
+            next or most recent style applied to that element was the color red. </p>
+        <p>The web browser “reads” the CSS as it is written and applies it to the HTML document. So this means that the
+            color, font-size, and font-weight properties were taken in as they came up and applied to the paragraph
+            element.
+        </p>
+
+        <p>However, another paragraph element was added underneath the first in the CSS file. This means that the HTML
+            document then moved on to that one and took whatever was inside of it. The only property value it found was
+            the color change to red. It applied this to the paragraph element and gave a final render that was seen
+            above.
+        </p>
+
+        <p>Consider the styles applied on the CSS file to be a waterfall of sorts. The code cascades down as water does
+            in the waterfall. The HTML document reads through the flow and applies whatever it finds along the way.
+        </p>
+
+        <h3>The Cascade Example</h3>
+
+        <p>
+            In the pursuit of the question of “what is CSS”, visual examples are a great help. To that end, this next
+            section will build on the cascading details provided in a more visual approach. Below, you will see another
+            set of CSS code. Again, multiple styles have been applied to the single paragraph tag on the HTML document.
+        </p>
+        <img src="What_Is_CSS_7.jpg" alt="image of css code">
+
+        <p>
+            This will help to demonstrate just how the cascading style is taken in by the HTML document. The color and
+            size change in each set. Notice that a font-family property was also added in the second set.
+        </p>
+
+        <p>
+            If you look at the way the style code cascades down, you can see which properties are being added and which
+            ones are being changed along the way. With that code in place, the HTML page will render in the following
+            format.
+        </p>
+        <img src="What_Is_CSS_8.jpg" alt="image of css applied">
+
+        <p>
+            The final coloring and font-size values were taken from the last entry on the stylesheet. The font-family
+            and font-weight properties were added along the way and kept on the final render as well. This provides the
+            example image you see above.
+        </p>
+
+        <h3>Subscribe to Our Newsletter</h3>
+
+        <form>
+
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <input type="submit" value="Subscribe">
+
+        </form>
+    </article>
+
+    <aside>
+
+        <h4>Related posts</h4>
+
+        <ul>
+
+            <li>
+                <h4><a href="blog-one.html">What is CSS?</a></h4>
+                <p>By Allan Bryan Vinluan</p>
+            </li>
+
+            <li>
+                <h4><a href="blog-two.html">What is Javascript?</a></h4>
+                <p>By Allan Bryan Vinluan</p>
+            </li>
+
+            <li>
+                <h4><a href="blog-three.html">What is a Web Framework?</a></h4>
+                <p>By Allan Bryan Vinluan</p>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <footer>Copyright &copy; 2030 by Allan Bryan Vinluan All Rights Reserved.</footer>
+</body>
+
+</html>
